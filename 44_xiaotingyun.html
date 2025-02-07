@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>44_xiaotingyun</title>
+        <meta name="description" content="階層の異なる要素(logo・home・search・company・contact)を配置するgridレイアウト">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                display: grid;
+                background-color: cadetblue;
+                grid-template-columns: repeat(5,1fr);
+                place-items: center;
+                height: 70px;
+                color: #fff;
+                font-size: 20px;
+            }
+            nav {
+                display: contents
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>logo</div>
+            <nav>
+                <div>home</div>
+                <div>search</div>
+                <div>company</div>
+            </nav>
+            <div>contact</div>
+        </header>
+    </body>
+</html>
